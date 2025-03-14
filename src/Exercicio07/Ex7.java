@@ -6,7 +6,7 @@ public class Ex7 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Insira o valor da compra");
+        System.out.println("Insira o valor do salário anual");
         double salarioAnual = input.nextDouble();
 
         ImpostoDeRenda imposto = new ImpostoDeRenda();
